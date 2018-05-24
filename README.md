@@ -5,10 +5,10 @@
  对UIbutton 的封装的一个倒计时按钮
  多用于获取验证码的时候
 如图：
-![预览图1](1.gif)
+![预览图](1.gif)
 
-#### Example
-This code
+#### 例子
+代码
 
 ```    objc
 _btn2 = [[CountDownButton alloc] init];
