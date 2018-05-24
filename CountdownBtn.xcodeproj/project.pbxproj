@@ -15,6 +15,8 @@
 		5925DD8820B6A8BE0013FD58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5925DD8720B6A8BE0013FD58 /* main.m */; };
 		5925DD9220B6A8BE0013FD58 /* CountdownBtnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5925DD9120B6A8BE0013FD58 /* CountdownBtnTests.m */; };
 		5925DD9D20B6A8BE0013FD58 /* CountdownBtnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5925DD9C20B6A8BE0013FD58 /* CountdownBtnUITests.m */; };
+		5925DDAD20B6A8EC0013FD58 /* CountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5925DDAC20B6A8EC0013FD58 /* CountDownButton.m */; };
+		5925DDB020B6A9560013FD58 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5925DDAE20B6A9560013FD58 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		5925DD9820B6A8BE0013FD58 /* CountdownBtnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownBtnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5925DD9C20B6A8BE0013FD58 /* CountdownBtnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountdownBtnUITests.m; sourceTree = "<group>"; };
 		5925DD9E20B6A8BE0013FD58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5925DDAB20B6A8EC0013FD58 /* CountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownButton.h; sourceTree = "<group>"; };
+		5925DDAC20B6A8EC0013FD58 /* CountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownButton.m; sourceTree = "<group>"; };
+		5925DDAE20B6A9560013FD58 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		5925DDAF20B6A9560013FD58 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		5925DD7720B6A8BD0013FD58 /* CountdownBtn */ = {
 			isa = PBXGroup;
 			children = (
+				5925DDAA20B6A8EC0013FD58 /* CountDownButton */,
 				5925DD7820B6A8BD0013FD58 /* AppDelegate.h */,
 				5925DD7920B6A8BD0013FD58 /* AppDelegate.m */,
 				5925DD7B20B6A8BD0013FD58 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				5925DD9E20B6A8BE0013FD58 /* Info.plist */,
 			);
 			path = CountdownBtnUITests;
+			sourceTree = "<group>";
+		};
+		5925DDAA20B6A8EC0013FD58 /* CountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				5925DDAF20B6A9560013FD58 /* MBProgressHUD.h */,
+				5925DDAE20B6A9560013FD58 /* MBProgressHUD.m */,
+				5925DDAB20B6A8EC0013FD58 /* CountDownButton.h */,
+				5925DDAC20B6A8EC0013FD58 /* CountDownButton.m */,
+			);
+			path = CountDownButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +282,8 @@
 			files = (
 				5925DD7D20B6A8BD0013FD58 /* ViewController.m in Sources */,
 				5925DD8820B6A8BE0013FD58 /* main.m in Sources */,
+				5925DDB020B6A9560013FD58 /* MBProgressHUD.m in Sources */,
+				5925DDAD20B6A8EC0013FD58 /* CountDownButton.m in Sources */,
 				5925DD7A20B6A8BD0013FD58 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
